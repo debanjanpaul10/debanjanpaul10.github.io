@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Debanjan's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devDP.jpg" alt="Logo" class="logo--img">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projs" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#compete" class="nav__link">Competitions</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Me!</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Debanjan Paul</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Student <br />and Aspiring Web Developer</p>
+            <img src="img/dev-dp-01.jpg" alt="A Picture of me on a jeep" class="intro__img">
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who Am I</h2>
+            <p class="section__subtitle section__subtitle--about">
+                An Electrical Engineering Student with a keen knack in Web Development
+            </p>
+            <div class="about-me__body">
+                I'm a student of Electrical Engineering currently in my final year studying in Techno International New Town. I have a keen knack in coding and especially Web Development 
+                and am hoping to have a prosperous career in that sector. This is Portfolio is one of the many web based projects I've made and if you like it make sure to check out my github page
+                whose link is mentioned at the bottom! Kudos 👍
+            </div>
+            <img src="img/dev-dp-02.jpg" alt="Debanjan in kurta" class="about-me__img">
+            <a href="#contact" class="btn">Contact Me!</a>
+        </section>
+
+        <!-- Education -->
+        <section class="education" id="education">
+            <h2 class="section__title section__title--education">Education</h2>
+            <div class="educate">
+                <div class="edu">
+                    <h3>Bachelor of Technology in Electrical Engineering</h3>
+                    <p>
+                        Currently pursuing a Bachelor of Technology in Electrical Engineering from the university of Maulana Abul Kalam Azad University of Technology, Govt Of West Bengal. I'm expected
+                        to be graduated by the year 2021.
+                    </p>
+                </div>
+                <div class="edu">
+                    <h3>All India Senior Secondary Certificate Examination (CBSE) – Class XII</h3>
+                    <p>
+                        Passed Class 12 from Haryana Vidya Mandir in the year 2017 and the medium of study was English and the board was <b>Central Board of Secondary Education, New Delhi</b>
+                    </p>
+                </div>
+                <div class="edu">
+                    <h3>Secondary School Examination (CBSE) – Class X</h3>
+                    <p>
+                        Passed Class 10 from Haryana Vidya Mandir in the year 2015 and the medium of study was English as well and the board was <b>Central Board of Secondary Education, New Delhi</b>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills" id="skills">
+            <h2 class="section__title section__title--skills">Skills</h2>
+            <div class="skills">
+                <div class="skill">
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Time Management</li>
+                        <li>Leadership</li>
+                        <li>Creativity</li>
+                        <li>Good Verbal Ability</li>
+                    </ul>
+                </div>
+                <div class="skill skill_color">
+                    <h3>Front End Technologies</h3>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Vanilla JavaScript</li>
+                        <li>React JavaScript</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Back End Technologies</h3>
+                    <ul>
+                        <li>C/C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                        <li>C#</li>
+                    </ul>
+                </div>
+                <div class="skill skill_color">
+                    <h3>Database</h3>
+                    <ul>
+                        <li>MySQL</li>
+                        <li>PostgreSQL</li>
+                        <li>Oracle SQL</li>
+                    </ul>
+                </div>
+                <div class="skill">
+                    <h3>Other Skils</h3>
+                    <ul>
+                        <li>Git VCS</li>
+                        <li>Data Structures Knowledge</li>
+                        <li>MATLAB</li>
+                        <li>Power World Simulator</li>
+                        <li>MS Office</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Projects -->
+        <section class="technical" id="projs">
+            <h2 class="section__title section__title--projs">Projects</h2>
+            <div class="projects">
+                <div class="proj">
+                    <h3>SoundCloud Player</h3>
+                    <div class="proj_img">
+                        <a href="https://github.com/debanjanpaul10/Soundcloud-API" target="_blank" ><img src="img/portfolio-01.png" alt="SoundCloud Player"></a>
+                    </div>
+                    <div class="proj_text">
+                        <p>
+                            A simple web browser based SoundCloud Player that uses SoundCloud API as its backbone and runs with HTML/CSS and JavaScript.
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+
+                <hr />
+                <br />
+                
+                <div class="proj">
+                    <h3>Meme Generator</h3>
+                    <div class="proj_img">
+                        <a href="https://github.com/debanjanpaul10/Random-Meme-Generator" target="_blank"><img src="img/portfolio-02.png" alt="Meme Generator"></a>
+                    </div>
+                    <div class="proj_text">
+                        <p>
+                            A web browser based Meme Generator made using HTML/CSS and React JavaScript. Pretty simple and funny app that has an imgflip API working in the background.
+                        </p>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </section>
+        
+        <!-- Competitions  -->
+        <section class="competition" id="compete">
+            <h2 class="section__title section__title--competition">Competitions</h2>
+            <p class="section__subtitle section__subtitle--work">Some of the competitions I've Participated in</p>
+            <div class="comp">
+                <h3>Facebook Hacker Cup (July 2020)</h3>
+                <img src="img/portfolio-03.png" alt="hackercup"> 
+                <p>
+                    Participated in Facebook Hacker Cup held in July 2020 and secured 9468th rank out of 32699 in the Qualification Round.
+                </p>
+                <hr />
+            </div>
+            <div class="comp">
+                <br />
+                <h3>Google Kickstart Round D (July 2020)</h3>
+                <img src="img/portfolio-04.png" alt="kickstart">
+                <p>
+                    Participated in Google Kickstart Round D and secured 7723rd Rank that was held on 12th July 2020.
+                </p>
+                <hr />
+            </div>
+            <div class="comp">
+                <br />
+                <h4>Cisco Networking Academy – ISTE National Level CODATHON – 2020</h4>
+                <img src="img/portfolio-05.jpeg" alt="">
+                <p>
+                    Participated in CISCO NetAcad ISTE National Level Codathon in Python Programming Language in April, 2020.
+                </p>
+            </div>
+        </section>
+
+
+        <!-- Contact Me -->
+        <section class="contact-me" id="contact">
+            <h3 class="section__title section__title--contact">Contact me here</h3>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a href="https://api.whatsapp.com/send?phone=+918961509015" target="_blank" class="social-list__link">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="mailto:debanjanpaul10@gmail.com" target="_blank" class="social-list__link">
+                        <i class="far fa-envelope-open"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    
+                    <a href="https://github.com/debanjanpaul10" target="_blank" class="social-list__link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://fb.com/debanjan.paul.69" target="_blank" class="social-list__link">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a href="https://www.linkedin.com/in/debanjan-paul-09509010b/" target="_blank" class="social-list__link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
