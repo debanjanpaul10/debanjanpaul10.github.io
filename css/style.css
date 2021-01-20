@@ -420,63 +420,50 @@ header {
     Projects
 */
 
-.proj_img {
-    float: left;
-    padding: 0 1.25em 1.25em 0;
-    margin-top: 0.625em;
-    transition: 
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
-    width: 50%;
-    display: block;
-}
-
-.proj_img:hover {
-    transform: scale(1.05);
-    opacity: 0.75;
-}
-
-.proj_text {
-    display: flex;
-    align-items: center;
-    padding: 3.125em;
-    vertical-align: auto;
-}
-
-@media (max-width: 600px) {
-    .proj_img {
-        margin-top: 0.625em;
-        width: 100%;
-        display: inline;
-    }
-
-    .proj_text {
-        display: inline;
-        width: 100%;
-    }
-}
-
-.proj > h3 {
-    margin-top: 1.25em;
-}
-
-.clear {
-    clear: both;
-}
-    
 .technical {
     background-color: var(--clr-dark);
     color: var(--clr-light);
-    text-decoration: none;
-    background: url(../img/background.jpg);
-    background-size: cover;
-    background-blend-mode: multiply;
-    background-color: rgba(0,0,0, 0.4);
+    text-align: center;
 }
-.technical a {
-    color: whitesmoke;
-    text-decoration: none;
+
+.section__subtitle--project {
+    color: var(--clr-accent);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2em;
 }
+
+.portfolio {
+    display: grid;
+    overflow: inherit;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.portfolio__item {
+    background: var(--clr-accent);
+    overflow: hidden;
+}
+
+.portfolio__img {
+    transition: 
+        transform 750ms cubic-bezier(.5 , 0, .5, 1),
+        opacity 250ms linear;
+    width: 100%;
+    height: 25rem;
+    vertical-align: middle;
+    display: flex;
+}
+
+.portfolio__item:focus {
+    position: relative;
+    z-index: 2;
+}
+
+.portfolio__img:hover,
+.portfolio__item:focus .portfolio__img {
+    transform: scale(1.2);
+    opacity: 0.75;
+}
+
 
 
 /*
@@ -486,7 +473,7 @@ header {
     background-color: var(--clr-light);
     color: var(--clr-dark);
 }   
-.section__subtitle--work {
+.section__subtitle--competition {
     color: var(--clr-accent);
     font-weight: var(--fw-bold);
     text-align: center;
