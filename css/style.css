@@ -410,10 +410,22 @@ header {
 .skill_color {
     border-radius: 0.9375em;
     background: var(--clr-accent);
+    text-align: right;
 }
 
 .skill {
-    padding: 0.625em;
+    padding: 1em;
+}
+
+.skill > h3 {
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    .skill_color, .skill {
+        text-align: justify;
+        margin: 0px auto;
+    }
 }
 
 /*
