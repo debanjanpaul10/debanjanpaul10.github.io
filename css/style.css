@@ -479,50 +479,6 @@ header {
 
 
 /*
-    Competitions
-*/
-.competition {
-    background-color: var(--clr-light);
-    color: var(--clr-dark);
-}   
-.section__subtitle--competition {
-    color: var(--clr-accent);
-    font-weight: var(--fw-bold);
-    text-align: center;
-    margin-bottom: 2em;
-}
-.section__title--competition {
-    text-align: center;
-    font-size: var(--fs-h2);
-}
-
-.comp {
-    display: inline-block;
-    padding: 1.25;
-    font-family: var(--ff-secondary);
-}
-
-.comp > img {
-    margin-top: 0.625em;
-    height: 18.75em;
-    width: auto;
-    box-shadow: var(--bs);
-    transition: 
-        transform 750ms cubic-bezier(.5, 0, .5, 1),
-        opacity 250ms linear;
-}
-
-.comp img:hover {
-    transform: scale(1.05);
-    opacity: 0.75;
-}
-
-.comp > hr {
-    margin-top: 1.25em;
-}
-
-
-/*
     Footer
 */
 
